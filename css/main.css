@@ -46,4 +46,63 @@ body{
 .nav-icon:hover{
   color:var(--mainBlack);
 }
+.header{
+  clip-path:polygon(0 0, 100% 0, 100% 95%, 50% 100%, 0 95%);
+  color: var(--mainWhite);
+  overflow:hidden;
+}
+.height-max{
+  min-height:cal(100vh - 76);
+  background:url('../img/sbackground.jpeg');
+  background-position:center;
+  background-size:cover;
+  background-attachment:fixed;
+  background-repeat:no-repeat;
+  animation-name: zoom;
+  animation-duration:20s;
+  animation-delay:5s;
+  animation-iteration-count:infinite;
+}
 
+@keyframes zoom{
+  0%{
+	transform:scale(1);
+  }
+  50%{
+	transform:scale(1.2) transalateX(-5%);
+  }
+  100%{
+	transform:scale(1);
+  }
+}
+.title-heading{
+  background:rgb(0,0,0,0.4);
+  border-left:0.3rem solid var(--mainBlue);
+}
+.title{
+  font-weight: 700;
+  font-size:1.0rem;
+}
+@media screen and (min-width:860px){
+  .title{
+	font-size:3rem;
+  }
+}
+.title-icon{
+  color: var(--mainBlue);
+  text-decoration:none!important;
+}
+.title-icon:hover{
+  color:var(--mainBlue);
+  opacity:0.6;
+}
+
+/* navbar ends */
+
+/* specialty starts */
+.section-title--special{
+  background:var(--transparentBlue);
+  color:var(--mainWhite);
+  padding: 0.5rem 2rem;
+  clip-path:polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+}
