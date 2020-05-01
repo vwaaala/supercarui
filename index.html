@@ -12,19 +12,24 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <!-- font awesome -->
     <script src="js/all.js"></script>
+	<script src="js/scripts.js"></script>
+	
     <title>SuperCar</title>
   </head>
   <body>
     <!--  -->
 	  
 	<!-- preloader starts-->
+	  <div class="pageloader d-flex justify-content-center align-items-center">
+		<img src="img/l2.gif"  alt="Page loading...">
+	  </div>
 	  
 	<!-- preloader ends -->
 	  
 	<!-- navbar starts -->
 	<nav class="navbar navbar-expand-lg px-3" id="navbar">
 	  <a href="#" class="navbar-brand">
-		<img src="img/gear.gif" height="16" width="16"alt="Logo">
+		<img src="img/gear.gif" height="30" width="30" alt="Logo">
 	  </a>
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav">
 		<span class="navbar-icon">
@@ -105,54 +110,340 @@
 			
 		  <!-- specialty body starts -->
 			<div class="row">
-			  <div class="col-sm-6 col-md-6 col-lg-3 text-center my-3">
+			  <div class="col-sm-6 col-lg-3 text-center my-3">
 				<a href="" class="specialty-icon p-2 rounded-circle">
-				  <i class="fas fa-car fa-fav"></i>
+				  <i class="fas fa-car fa-fw"></i>
 				</a>
 				<h6 class="text-uppercase font-weight-bold my-3">all brands</h6>
 				<div class="specialty-underline"></div>
 				<p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
 			  </div>
+			  
+			  <div class="col-sm-6 col-lg-3 text-center my-3">
+				<a href="" class="specialty-icon p-2 rounded-circle">
+				  <i class="fas fa-wallet fa-fw"></i>
+				</a>
+				<h6 class="text-uppercase font-weight-bold my-3">affodable</h6>
+				<div class="specialty-underline"></div>
+				<p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
+			  </div>
+
+			  <div class="col-sm-6 col-lg-3 text-center my-3">
+				<a href="" class="specialty-icon p-2 rounded-circle">
+				  <i class="fas fa-people-carry fa-fw"></i>
+				</a>
+				<h6 class="text-uppercase font-weight-bold my-3">caring</h6>
+				<div class="specialty-underline"></div>
+				<p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
+			  </div>
+			  
+			  <div class="col-sm-6 col-lg-3 text-center my-3">
+				<a href="" class="specialty-icon p-2 rounded-circle">
+				  <i class="fas fa-comments fa-fw"></i>
+				</a>
+				<h6 class="text-uppercase font-weight-bold my-3">free support</h6>
+				<div class="specialty-underline"></div>
+				<p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
+			  </div>
 			</div>
-			
-		  <div class="row">
-			<div class="col-sm-6 col-lg-3 text-center my-3">
-			  <a href="" class="specialty-icon p-2 rounded-circle">
-				<i class="fas fa-comments fa-fav"></i>
-			  </a>
-			  <h6 class="text-uppercase font-weight-bold my-3">free support</h6>
-			  <div class="specialty-underline"></div>
-			  <p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
-			</div>
-		  </div>
-		  
-		  <div class="row">
-			<div class="col-sm-6 col-lg-3 text-center my-3">
-			  <a href="" class="specialty-icon p-2 rounded-circle">
-				<i class="fas fa-wallet fa-fav"></i>
-			  </a>
-			  <h6 class="text-uppercase font-weight-bold my-3">afforable</h6>
-			  <div class="specialty-underline"></div>
-			  <p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
-			</div>
-		  </div>
-		  
-		  <div class="row">
-			<div class="col-sm-6 col-lg-3 text-center my-3">
-			  <a href="" class="specialty-icon p-2 rounded-circle">
-				<i class="fas fa-people-carry fa-fav"></i>
-			  </a>
-			  <h6 class="text-uppercase font-weight-bold my-3">caring</h6>
-			  <div class="specialty-underline"></div>
-			  <p class="w-75 mx-auto text-muted">You can get quality condition from our showcase.</p>
-			</div>
-		  </div>
 		  <!-- specialty body ends -->
 		</div>
 	  </section>
 	<!-- specialty ends -->
 	  
-	
+	<!-- inventory section starts -->
+	  <section class="inventory py-5" id="inventory">
+		<div class="container">
+		  <div class="row md-5">
+			<div class="col d-flex flex-wrap text-uppercase justify-content-center">
+			  <h1 class="font-weight-bold align-self-center mx-1">our</h1>
+			  <h1 class="section-title--special mx-1">inventory</h1>
+			</div>	
+		  </div>
+		</div>
+		
+		<div class="row mb-r">
+		  <div class="col-10 mx-auto col-md-12 d-flex justify-content-end">
+			<button class="btn btn-outline-secondary text-uppercase mx-1">car</button>
+			<button class="btn btn-outline-secondary text-uppercase mx-1">construction</button>
+			<button class="btn btn-outline-secondary text-uppercase mx-1">agricultural</button>
+		  </div>
+		</div>
+		
+		<!-- cars starts here -->
+		  <div class="row">
+			<!-- card header starts here -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c1.jpeg" alt="Car Image" class="card-img-top car-img">
+				  <!-- body -->
+				  <div class="card-body">
+					<div class="card-info d-flex justify-content-between">
+					  <!-- first child -->
+					  <div class="car-text text-uppercase">
+					    <h6 class="font-weight-bold">brand</h6>
+					    <h6>model name</h6>
+					  </div>
+					  <!-- second child -->
+					  <h5 class="car-value align-self-center py-2 px-3">$
+						<span class="car-price">25,000</span>
+					  </h5>
+					</div>
+				  </div>
+				  <!-- card body ends here -->
+				  <!-- card footer starts here -->
+				  <div class="card-footer text-capitalize d-flex justify-content-between">
+					<p><span><i class="fas fa-car"></i></span> sedan</p>
+					<p><span><i class="fas fa-cogs"></i></span> automatic</p>
+					<p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				  </div>
+				  <!-- card footer ends here -->
+			  </div>
+			</div>
+			<!-- single car ends here -->
+			  
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c8.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+			  
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c7.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+			
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c6.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+			  
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c2.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+			
+			
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c3.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+			
+			
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c4.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+			
+			
+			<!-- header -->
+			<div class="col-10 mx-auto my-3 col-md-6 col-lg-4">
+			  <div class="card car-card">
+				<img src="img/c5.jpeg" alt="Car Image" class="card-img-top car-img">
+				<!-- body -->
+				<div class="card-body">
+				  <div class="card-info d-flex justify-content-between">
+					<!-- first child -->
+					<div class="car-text text-uppercase">
+					  <h6 class="font-weight-bold">brand</h6>
+					  <h6>model name</h6>
+					</div>
+					<!-- second child -->
+					<h5 class="car-value align-self-center py-2 px-3">$
+					  <span class="car-price">25,000</span>
+					</h5>
+				  </div>
+				</div>
+				<!-- card body ends here -->
+				<!-- card footer starts here -->
+				<div class="card-footer text-capitalize d-flex justify-content-between">
+				  <p><span><i class="fas fa-car"></i></span> sedan</p>
+				  <p><span><i class="fas fa-cogs"></i></span> automatic</p>
+				  <p><span><i class="fas fa-gas-pump"></i></span> 50</p>
+				</div>
+			  </div>
+			</div>
+		  </div>
+	    <!-- cars ends here -->
+	  </section>
+	<!-- inventory section ends -->
+	  
+	<!-- question section -->
+	<div class="section question py-5">
+	  <div class="container">
+		<div class="row">
+		  <!-- first question -->
+		  <div class="col-10 mx-auto my-2 col-md-6 d-flex justify-content-between p-4 question-grey">
+			<!-- first flexbox hild -->
+			<a href="#" class="question-icon mr-3">
+			  <i class="fas fa-search fa-fw"></i>
+			</a>
+			<!-- second flexbox child -->
+			<div class="question-text w-75">
+			  <h4 class="question-title text-capitalize font-weight-bold">
+				Are you looking for a Buy?
+			  </h4>
+			  <p class="question-info">Browse our inventory to buy your desired item or place an request to buy an archive or sold item.
+			</div>
+		  </div>
+		  <!-- first question ends here -->
+		  <!-- second question -->
+		  <div class="col-10 mx-auto my-2 col-md-6 d-flex justify-content-between p-4 question-yellow">
+			<!-- first flexbox hild -->
+			<a href="#" class="question-icon mr-3">
+			  <i class="fas fa-dollar-sign fa-fw"></i>
+			</a>
+			<!-- second flexbox child -->
+			<div class="question-text w-75">
+			  <h4 class="question-title text-capitalize font-weight-bold">
+				Do you have something that ate up your space ?
+			  </h4>
+			  <p class="question-info">We value your expectation. If you want to sell something, you can anytime submit a ticket or contact our support helpline.
+			</div>
+		  </div>
+		  <!-- second question ends here -->
+		</div>
+	  </div>
+	</div>
+	  
+	<!-- question section ends -->
 	  
 
     <!-- Optional JavaScript -->
